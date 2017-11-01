@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(MeshFilter))]
@@ -19,3 +19,4 @@ public class combinemesh : MonoBehaviour {
 		transform.gameObject.active = true;
 	}
 }
+*/
