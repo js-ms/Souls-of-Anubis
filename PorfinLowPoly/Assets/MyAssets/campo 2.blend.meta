@@ -3,7 +3,7 @@ guid: a4afcf857a249174ab45bb4a8a2e5036
 timeCreated: 1516778092
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: Cube
@@ -52,12 +52,43 @@ ModelImporter:
     4300012: Cylinder_002
     4300014: Cylinder_001
     4300016: Cylinder
+    6400000: Cube
+    6400002: Cylinder
+    6400004: Cylinder_001
+    6400006: Cylinder_002
+    6400008: Cylinder_003
+    6400010: Cylinder_004
+    6400012: Cylinder_005
+    6400014: Cylinder_006
+    6400016: Cylinder_008
     7400000: Default Take
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AzulLana
+    second: {fileID: 2100000, guid: 514e8aa1080e44141b4a34ac6a765205, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matemadera
+    second: {fileID: 2100000, guid: f6259785e7570e54294b8ab7f0b0b27a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_002
+    second: {fileID: 2100000, guid: ac3269e5de12a9040950b642603df35e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VerdeLana
+    second: {fileID: 2100000, guid: 6718447444c1a544293b512159ac3e11, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -70,6 +101,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -83,7 +115,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -94,6 +126,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
