@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 56e8e1c5d58e46a488d3cd31ad4f01c8
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cat.LiteVersion
+    100002: //RootNode
+    100004: Eye.Closed
+    100006: Eye.Cute
+    100008: Feet.Back.L
+    100010: Feet.Back.R
+    100012: Feet.Front.L
+    100014: Feet.Front.R
+    100016: Head
+    100018: Leg.Back.Lower.L
+    100020: Leg.Back.Lower.R
+    100022: Leg.Back.Upper.L
+    100024: Leg.Back.Upper.R
+    100026: Leg.Front.Lower.L
+    100028: Leg.Front.Lower.R
+    100030: Leg.Front.Upper.L
+    100032: Leg.Front.Upper.R
+    100034: Mouth
+    100036: Rig
+    100038: Root
+    100040: Tail
+    100042: Tail.01
+    100044: Tongue
+    100046: Torso
+    400000: Cat.LiteVersion
+    400002: //RootNode
+    400004: Eye.Closed
+    400006: Eye.Cute
+    400008: Feet.Back.L
+    400010: Feet.Back.R
+    400012: Feet.Front.L
+    400014: Feet.Front.R
+    400016: Head
+    400018: Leg.Back.Lower.L
+    400020: Leg.Back.Lower.R
+    400022: Leg.Back.Upper.L
+    400024: Leg.Back.Upper.R
+    400026: Leg.Front.Lower.L
+    400028: Leg.Front.Lower.R
+    400030: Leg.Front.Upper.L
+    400032: Leg.Front.Upper.R
+    400034: Mouth
+    400036: Rig
+    400038: Root
+    400040: Tail
+    400042: Tail.01
+    400044: Tongue
+    400046: Torso
+    4300000: Cat.LiteVersion
+    7400000: Rig|Idle
+    7400002: Rig|Run
+    7400004: Rig|Sit
+    7400006: Rig|Walk
+    9500000: //RootNode
+    13700000: Cat.LiteVersion
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
