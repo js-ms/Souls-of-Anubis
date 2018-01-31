@@ -44,12 +44,19 @@ public class MoverLinkle : MonoBehaviour {
 			} else if (Input.GetKeyDown (KeyCode.A)) {
 				cont = 0;
 				movimiendoLinkle *= 0;
-			} else if (Input.GetKeyDown(KeyCode.S)) {
+			} else if (Input.GetKeyDown (KeyCode.S)) {
 				for (int i = 0; i < 45; i++) {
 					int j = 4;
 					personaje.transform.Rotate (0, j, 0);
 					j += 4;
 				}
+				movimiendoLinkle *= 0;
+			} else if (Input.GetKeyDown (KeyCode.LeftShift)) {
+				personaje.GetComponent<Animator> ().SetBool ("isRunning", true);
+				movimiendoLinkle = personaje.transform.TransformDirection (Vector3.forward * 0.4f);
+				movimiendoLinkle *= 12.0f;
+			} else if (Input.GetKeyUp (KeyCode.LeftShift)) {
+				personaje.GetComponent<Animator> ().SetBool ("isRunning", false);
 				movimiendoLinkle *= 0;
 			}
 
