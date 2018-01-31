@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 5197767e55c63f74d945f6d711af8779
-timeCreated: 1517254840
+guid: 594a0a8daf3250a4c86f991abb25e6c6
+timeCreated: 1517429449
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -360,7 +360,7 @@ ModelImporter:
     4300040: clock_Cylinder
     4300042: Coat_Cylinder.002
     7400000: Armature|Armature|mixamo.com|Layer0
-    7400002: walkDef
+    7400002: walkingdef
     9500000: //RootNode
     13700000: arms
     13700002: arms_Cube.002
@@ -437,7 +437,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: walkDef
+      name: walkingdef
       takeName: mixamo.com
       firstFrame: 0
       lastFrame: 29
@@ -447,7 +447,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
