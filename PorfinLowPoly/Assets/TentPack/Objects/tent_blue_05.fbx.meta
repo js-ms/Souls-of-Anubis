@@ -9,8 +9,14 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: tent_blue_05:Mesh
+    6400000: //RootNode
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tent_d
+    second: {fileID: 2100000, guid: 258e8e606dd978540af1aa5f7200cf0c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -42,7 +48,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
