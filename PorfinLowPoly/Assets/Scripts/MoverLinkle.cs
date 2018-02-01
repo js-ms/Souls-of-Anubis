@@ -23,6 +23,11 @@ public class MoverLinkle : MonoBehaviour {
 				personaje.GetComponent<Animator> ().SetBool ("isWalking", true);
 				movimiendoLinkle = personaje.transform.TransformDirection (Vector3.forward * 0.2f);
 				movimiendoLinkle *= 12.0f;
+				if (Input.GetKeyDown (KeyCode.LeftShift)) {
+					personaje.GetComponent<Animator> ().SetBool ("isRunning", true);
+					movimiendoLinkle = personaje.transform.TransformDirection (Vector3.forward * 0.8f);
+					movimiendoLinkle *= 12.0f;
+				}
 			} else if (Input.GetKeyUp (KeyCode.W)) {
 				movimiendoLinkle *= 0;
 				personaje.GetComponent<Animator> ().SetBool ("isWalking", false);
