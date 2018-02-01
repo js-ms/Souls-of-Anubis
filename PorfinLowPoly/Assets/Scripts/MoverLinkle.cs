@@ -9,6 +9,9 @@ public class MoverLinkle : MonoBehaviour {
 	public GameObject personaje;
 	private float cont;
 
+	public float moveSpeed = 10f;
+	public float turnSpeed = 50f;
+
 	// Use this for initialization
 	void Start () {
 		this.gravedad = 2.0f;
@@ -19,57 +22,53 @@ public class MoverLinkle : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (personaje.GetComponent<CharacterController> ().isGrounded) {
-			if (Input.GetKeyDown (KeyCode.W)) {
-				personaje.GetComponent<Animator> ().SetBool ("isWalking", true);
-				movimiendoLinkle = personaje.transform.TransformDirection (Vector3.forward * 0.2f);
-				movimiendoLinkle *= 12.0f;
-				if (Input.GetKeyDown (KeyCode.LeftShift)) {
-					personaje.GetComponent<Animator> ().SetBool ("isRunning", true);
-					movimiendoLinkle = personaje.transform.TransformDirection (Vector3.forward * 0.8f);
-					movimiendoLinkle *= 12.0f;
-				}
-			} else if (Input.GetKeyUp (KeyCode.W)) {
-				movimiendoLinkle *= 0;
-				personaje.GetComponent<Animator> ().SetBool ("isWalking", false);
-			} else if (Input.GetKey (KeyCode.D)) {
-				personaje.GetComponent<Animator> ().SetBool ("isWalking", false);
-				cont += 2f;
-				personaje.transform.Rotate (0, cont, 0);
-				movimiendoLinkle *= 0;
-				cont = 0;
-			} else if (Input.GetKeyUp (KeyCode.D)) {
-				cont = 0;
-				movimiendoLinkle *= 0;
-			} else if (Input.GetKey (KeyCode.A)) {
-				personaje.GetComponent<Animator> ().SetBool ("isWalking", false);
-				cont -= 2f;
-				personaje.transform.Rotate (0, cont, 0);
-				movimiendoLinkle *= 0;
-				cont = 0;
-			} else if (Input.GetKeyDown (KeyCode.A)) {
-				cont = 0;
-				movimiendoLinkle *= 0;
-			} else if (Input.GetKeyDown (KeyCode.S)) {
-				for (int i = 0; i < 45; i++) {
-					int j = 4;
-					personaje.transform.Rotate (0, j, 0);
-					j += 4;
-				}
-				movimiendoLinkle *= 0;
-			} else if (Input.GetKeyDown (KeyCode.LeftShift)) {
-				personaje.GetComponent<Animator> ().SetBool ("isRunning", true);
-				movimiendoLinkle = personaje.transform.TransformDirection (Vector3.forward * 0.4f);
-				movimiendoLinkle *= 12.0f;
-			} else if (Input.GetKeyUp (KeyCode.LeftShift)) {
-				personaje.GetComponent<Animator> ().SetBool ("isRunning", false);
-				movimiendoLinkle *= 0;
-			}
+			print ("toque suelo");
+			if (Input.GetKey (KeyCode.UpArrow)) {
+				GetComponent<Animator> ().SetBool ("isWalking", true);
+				transform.Translate (Vector3.forward * moveSpeed * Time.deltaTime);
 
 			}
+			if (Input.GetKeyUp (KeyCode.UpArrow)) {
+				GetComponent<Animator> ().SetBool ("isRunning", false);
+				GetComponent<Animator> ().SetBool ("isWalking", false);
+				//transform.Translate (Vector3.forward * moveSpeed * Time.deltaTime);
 
-		if(!this.GetComponent<CharacterController> ().isGrounded){
-			movimiendoLinkle.y -= gravedad * Time.deltaTime;
+			}
+			if (Input.GetKey (KeyCode.LeftShift)) {
+				GetComponent<Animator> ().SetBool ("isRunning", true);
+				transform.TransformDirection (Vector3.forward * 2 * moveSpeed * Time.deltaTime);
+
+			}
+			if (Input.GetKeyUp (KeyCode.LeftShift)) {
+				GetComponent<Animator> ().SetBool ("isRunning", false);
+				GetComponent<Animator> ().SetBool ("isWalking", true);
+				//transform.Translate (Vector3.forward * 2*moveSpeed * Time.deltaTime);
+
+			}
+			if (Input.GetKey (KeyCode.DownArrow)) {
+				GetComponent<Animator> ().SetBool ("isRunning", false);
+				GetComponent<Animator> ().SetBool ("isWalking", false);
+				GetComponent<Animator> ().SetBool ("isBack", true);
+				transform.Translate (-Vector3.forward * moveSpeed * Time.deltaTime);
+			}
+			if (Input.GetKeyUp(KeyCode.DownArrow)) {
+				GetComponent<Animator> ().SetBool ("isBack", false);
+			}
+
+			if (Input.GetKeyDown (KeyCode.Mouse0)) {
+				GetComponent<Animator> ().SetBool ("isShooting", true);
+			}
+			if (Input.GetKeyUp(KeyCode.Mouse0)) {
+				GetComponent<Animator> ().SetBool ("isShooting", false);
+			}
+
+			if (Input.GetKey (KeyCode.LeftArrow))
+				transform.Rotate (Vector3.up, -turnSpeed * Time.deltaTime);
+
+			if (Input.GetKey (KeyCode.RightArrow))
+				transform.Rotate (Vector3.up, turnSpeed * Time.deltaTime);
+		
 		}
-		personaje.GetComponent<CharacterController>().Move(movimiendoLinkle*Time.deltaTime);
+		GetComponent<CharacterController>().Move(Vector3.down*Time.deltaTime);
 	}
 }
