@@ -439,7 +439,7 @@ ModelImporter:
     - serializedVersion: 16
       name: atacando
       takeName: mixamo.com
-      firstFrame: 0
+      firstFrame: 14
       lastFrame: 81
       wrapMode: 0
       orientationOffsetY: 0
