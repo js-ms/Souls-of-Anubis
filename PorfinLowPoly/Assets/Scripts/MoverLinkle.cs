@@ -71,7 +71,7 @@ public class MoverLinkle : MonoBehaviour {
 				transform.Rotate (Vector3.up, turnSpeed * Time.deltaTime);
 		
 		}
-		GetComponent<CharacterController>().Move(Vector3.down*Time.deltaTime);
+		GetComponent<CharacterController>().Move(Vector3.down*10f*Time.deltaTime);
 	}
 
 
