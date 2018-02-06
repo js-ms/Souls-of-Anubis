@@ -34,6 +34,7 @@ public class Ryos : MonoBehaviour {
 			Seguir (this.Enemigo.transform.position);
 			Correr ();
 		} else {
+			print (hit.distance);
 			Seguir (this.Inicial);
 			Idle ();
 		}
@@ -43,6 +44,7 @@ public class Ryos : MonoBehaviour {
 	public void Seguir(Vector3 Objetivo)
 	{
 		Objetivo=atacar (Objetivo);
+		this.Agente.Warp (Objetivo);
 		this.Agente.destination = Objetivo;
 
 
@@ -62,8 +64,8 @@ public class Ryos : MonoBehaviour {
 		if (distancia <3f) {
 			Objetivo = this.transform.position;
 			GetComponent<Animator> ().SetInteger ("Atacar", 1);
-			ReproducirSonidos (GetComponents<AudioSource> ()[0]);//0 es el golpe
-			ReproducirSonidos (GetComponents<AudioSource> ()[1]);//1 es el grito
+//			ReproducirSonidos (GetComponents<AudioSource> ()[0]);//0 es el golpe
+//			ReproducirSonidos (GetComponents<AudioSource> ()[1]);//1 es el grito
 
 		}
 		else GetComponent<Animator> ().SetInteger ("Atacar", 2);

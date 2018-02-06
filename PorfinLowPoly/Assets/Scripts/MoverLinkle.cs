@@ -6,7 +6,6 @@ public class MoverLinkle : MonoBehaviour {
 
 	private float gravedad;
 	private Vector3 movimiendoLinkle; 
-	public GameObject personaje;
 	private float cont;
 
 	public float moveSpeed = 10f;
@@ -25,7 +24,7 @@ public class MoverLinkle : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (personaje.GetComponent<CharacterController> ().isGrounded) {
+		if (GetComponent<CharacterController> ().isGrounded) {
 			if (Input.GetKey (KeyCode.W)) {
 				GetComponent<Animator> ().SetBool ("isWalking", true);
 				transform.Translate (Vector3.forward * moveSpeed * Time.deltaTime);
@@ -71,7 +70,7 @@ public class MoverLinkle : MonoBehaviour {
 				transform.Rotate (Vector3.up, turnSpeed * Time.deltaTime);
 		
 		}
-		GetComponent<CharacterController>().Move(Vector3.down*10f*Time.deltaTime);
+		GetComponent<CharacterController>().Move(Vector3.down*20f*Time.deltaTime);
 	}
 
 
