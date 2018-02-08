@@ -12,9 +12,14 @@ public class misiones : MonoBehaviour {
 	public GameObject text3;
 	public GameObject text4;
 	public GameObject dialogo1;
+<<<<<<< HEAD
 	public GameObject dialogoPueblo1;
 	public GameObject dialogoPueblo2;
 	public GameObject dialogoPueblo3;
+=======
+	private bool tuto;
+	private bool entreOasis;
+>>>>>>> c9954fb16583019521830b620166c99e2ddc1e58
 
 	private bool tuto;
 	private bool entreOasis;
@@ -25,7 +30,10 @@ public class misiones : MonoBehaviour {
 		tuto = true;
 		GetComponent<CharacterController> ().enabled = false;
 		entreOasis = false;
+<<<<<<< HEAD
 		entrePueblo = false;
+=======
+>>>>>>> c9954fb16583019521830b620166c99e2ddc1e58
 	}
 
 	// Update is called once per frame
@@ -80,11 +88,14 @@ public class misiones : MonoBehaviour {
 				StartCoroutine (misionOasis ());
 			}
 		}
+<<<<<<< HEAD
 		if (collision.name == "Defeat") {
 			if (!entrePueblo) {
 				StartCoroutine (misionPueblo ());
 			}
 		}
+=======
+>>>>>>> c9954fb16583019521830b620166c99e2ddc1e58
 	}
 
 	IEnumerator misionOasis(){
@@ -96,6 +107,7 @@ public class misiones : MonoBehaviour {
 		dialogo1.SetActive (false);
 		entreOasis = true;
 	}
+<<<<<<< HEAD
 	IEnumerator misionPueblo(){
 		entrePueblo = true;
 		dialogoPueblo1.SetActive (true);
@@ -112,4 +124,6 @@ public class misiones : MonoBehaviour {
 		camera.transform.LookAt (transform.localPosition);
 		dialogoPueblo3.SetActive (false);
 	}
+=======
+>>>>>>> c9954fb16583019521830b620166c99e2ddc1e58
 }

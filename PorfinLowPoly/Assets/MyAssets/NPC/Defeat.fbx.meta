@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 4692fcc8f8845f745adbe4d1b3acb020
 timeCreated: 1518075323
+=======
+guid: ec41025cb7698ab4a82ba55c47758e2d
+timeCreated: 1517980090
+>>>>>>> c9954fb16583019521830b620166c99e2ddc1e58
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -65,7 +70,11 @@ ModelImporter:
     400056: Plane.001
     2000000: Camera
     4300000: Plane.001
+<<<<<<< HEAD
     7400000: fear
+=======
+    7400000: mixamo.com
+>>>>>>> c9954fb16583019521830b620166c99e2ddc1e58
     9500000: //RootNode
     10800000: Lamp
     13700000: Plane.001
@@ -92,6 +101,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
+<<<<<<< HEAD
     clipAnimations:
     - serializedVersion: 16
       name: fear
@@ -121,6 +131,9 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
+=======
+    clipAnimations: []
+>>>>>>> c9954fb16583019521830b620166c99e2ddc1e58
     isReadable: 1
   meshes:
     lODScreenPercentages: []

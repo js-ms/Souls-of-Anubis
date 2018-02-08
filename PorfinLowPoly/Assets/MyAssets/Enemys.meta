@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:PorfinLowPoly/Assets/MyAssets/Enemys.meta
 guid: 5dfadcef8b9c4c74aa41c95514ab9aca
 folderAsset: yes
 timeCreated: 1518074343
+=======
+guid: eee79c4eec28a144d9a6de7aa22136c6
+folderAsset: yes
+timeCreated: 1517978521
+>>>>>>> c9954fb16583019521830b620166c99e2ddc1e58:PorfinLowPoly/Assets/MyAssets/Enemys.meta
 licenseType: Free
 DefaultImporter:
   userData: 
