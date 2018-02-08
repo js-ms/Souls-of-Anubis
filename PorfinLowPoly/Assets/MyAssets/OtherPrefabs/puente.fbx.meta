@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: a9131b9617b3cd042b237345cb612ebd
+guid: 0c7c87f0e865e4d47a78f2e52bd8f2f1
 timeCreated: 1510301350
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: Cube
     100002: Cube.001
@@ -61,17 +61,10 @@ ModelImporter:
     6400012: Cube.006
     6400014: Cube.007
     6400016: Cube.008
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: puentedef
-    second: {fileID: 2100000, guid: c186a4d7e22c27947990c02c0b2a4256, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -84,7 +77,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -109,8 +101,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88

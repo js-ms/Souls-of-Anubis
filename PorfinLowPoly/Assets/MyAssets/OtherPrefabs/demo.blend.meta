@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 58933d00c5a936847bfe59a8bf7eaf93
+guid: 4b80c81c96c067e469c4d498186d1e11
 timeCreated: 1509329117
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
@@ -12,22 +12,10 @@ ModelImporter:
     4300000: Plane
     7400000: Default Take
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: grass
-    second: {fileID: 2100000, guid: 60c2c7f956e3ca441bf54e09c81c9692, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: sabd
-    second: {fileID: 2100000, guid: 3c6474ea8b2a3804b8368b8780f9a679, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -40,7 +28,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
