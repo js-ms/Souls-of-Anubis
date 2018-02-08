@@ -5024,7 +5024,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1065482790728954}
-  m_LocalRotation: {x: 0.6413788, y: 0.64137626, z: -0.2977142, w: 0.29771823}
+  m_LocalRotation: {x: 0.64137876, y: 0.6413762, z: -0.29771417, w: 0.2977182}
   m_LocalPosition: {x: -0.0005364518, y: 0.0007710523, z: 0.0009510106}
   m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000004}
   m_Children:
@@ -5526,7 +5526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 948a941cdf7a18543b88deb62d39decc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  personaje: {fileID: 1935873336401954}
   moveSpeed: 10
   turnSpeed: 50
   BalaSource: {fileID: 0}

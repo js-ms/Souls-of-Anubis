@@ -1,74 +1,17 @@
 fileFormatVersion: 2
-guid: a88383d6d840a684ba0ff496604b2449
-timeCreated: 1517968143
+guid: 73aac9ff45048474aa06fc34b981f1fa
+timeCreated: 1518075778
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: Camera
-    100002: Lamp
-    100004: mixamorig:Head
-    100006: mixamorig:HeadTop_End
-    100008: mixamorig:Hips
-    100010: mixamorig:LeftArm
-    100012: mixamorig:LeftFoot
-    100014: mixamorig:LeftForeArm
-    100016: mixamorig:LeftHand
-    100018: mixamorig:LeftLeg
-    100020: mixamorig:LeftShoulder
-    100022: mixamorig:LeftToe_End
-    100024: mixamorig:LeftToeBase
-    100026: mixamorig:LeftUpLeg
-    100028: mixamorig:Neck
-    100030: mixamorig:RightArm
-    100032: mixamorig:RightFoot
-    100034: mixamorig:RightForeArm
-    100036: mixamorig:RightHand
-    100038: mixamorig:RightLeg
-    100040: mixamorig:RightShoulder
-    100042: mixamorig:RightToe_End
-    100044: mixamorig:RightToeBase
-    100046: mixamorig:RightUpLeg
-    100048: mixamorig:Spine
-    100050: mixamorig:Spine1
-    100052: mixamorig:Spine2
-    100054: Plane.001
-    100056: //RootNode
-    400000: Camera
-    400002: Lamp
-    400004: mixamorig:Head
-    400006: mixamorig:HeadTop_End
-    400008: mixamorig:Hips
-    400010: mixamorig:LeftArm
-    400012: mixamorig:LeftFoot
-    400014: mixamorig:LeftForeArm
-    400016: mixamorig:LeftHand
-    400018: mixamorig:LeftLeg
-    400020: mixamorig:LeftShoulder
-    400022: mixamorig:LeftToe_End
-    400024: mixamorig:LeftToeBase
-    400026: mixamorig:LeftUpLeg
-    400028: mixamorig:Neck
-    400030: mixamorig:RightArm
-    400032: mixamorig:RightFoot
-    400034: mixamorig:RightForeArm
-    400036: mixamorig:RightHand
-    400038: mixamorig:RightLeg
-    400040: mixamorig:RightShoulder
-    400042: mixamorig:RightToe_End
-    400044: mixamorig:RightToeBase
-    400046: mixamorig:RightUpLeg
-    400048: mixamorig:Spine
-    400050: mixamorig:Spine1
-    400052: mixamorig:Spine2
-    400054: Plane.001
-    400056: //RootNode
-    2000000: Camera
-    4300000: Plane.001
-    7400000: mixamo.com
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
+    7400000: Default Take
     9500000: //RootNode
-    10800000: Lamp
-    13700000: Plane.001
   materials:
     importMaterials: 1
     materialName: 0
