@@ -399,8 +399,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b6ad04ffe2454240bbc19d0ef8c3a0c, type: 3}
   m_IsPrefabParent: 0
-<<<<<<< HEAD
-=======
 --- !u!1 &41706628
 GameObject:
   m_ObjectHideFlags: 0
@@ -22905,7 +22903,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4420719516628888, guid: 6bc0e112cbd18014b949f3a70acc6f9b,
     type: 2}
   m_PrefabInternal: {fileID: 891642233}
-<<<<<<< HEAD
 --- !u!1 &1059770789
 GameObject:
   m_ObjectHideFlags: 0
@@ -22928,13 +22925,11 @@ GameObject:
   - component: {fileID: 1049690425}
   m_Layer: 0
   m_Name: pisofalso1 (2)
->>>>>>> e55ec30409e1996432ffb5106dc7ffb3042fbac2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!4 &1059770790
 Transform:
   m_ObjectHideFlags: 0
