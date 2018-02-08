@@ -13,6 +13,6 @@ public class mirarPersonaje : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.LookAt (player.transform);
+		transform.Rotate (Vector3.left * 20f * Time.deltaTime);
 	}
 }

@@ -17,24 +17,25 @@ public class MostrasTexto : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider colision){
-		if (!adentro) {
+		print (adentro);
+		if (adentro) {
 			if (colision.name == "Linkle") {
-				this.text.SetActive (true);
-				if (this.text2 != null) {
-					this.text2.SetActive (true);
+				text.SetActive (true);
+				if (text2 != null) {
+					text2.SetActive (true);
 				}
 				StartCoroutine (volverFalso ());
 			}
-			adentro = true;
-		} else
 			adentro = false;
+		} else
+			adentro = true;
 	}
 
 	IEnumerator volverFalso(){
 		yield return new WaitForSeconds (2);
-		this.text.SetActive (false);
-		if (this.text2 != null) {
-			this.text2.SetActive (false);
+		text.SetActive (false);
+		if (text2 != null) {
+			text2.SetActive (false);
 		}
 	}
 }
